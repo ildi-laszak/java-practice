@@ -9,6 +9,7 @@ public class AnimalsAndLegs {
         int numberOfPigs = scanner.nextInt();
         int totalNumberOfLegs = (numberOfChickens * 2) + (numberOfPigs * 4);
         System.out.println("The number of legs: " + totalNumberOfLegs);
+        scanner.close();
     }
 }
 

@@ -7,6 +7,7 @@ public class MileToKmConverter {
         double distanceInMiles = scanner.nextDouble();
         double distanceInKm = distanceInMiles * 1.609344;
         System.out.println("The distance in km: " + distanceInKm);
+        scanner.close();
     }
 }
 

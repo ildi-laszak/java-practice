@@ -17,6 +17,7 @@ public class DrawTriangle {
             }
             System.out.println(" ");
         }
+        scanner.close();
     }
 }
 

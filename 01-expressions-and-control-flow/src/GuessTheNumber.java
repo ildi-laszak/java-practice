@@ -15,7 +15,7 @@ public class GuessTheNumber {
                 System.out.println("The stored number is smaller than " + userGuess);
             }
             if (userGuess == storedNumber) {
-                System.out.println("You found the stored number" + storedNumber);
+                System.out.println("You found the stored number " + storedNumber);
             }
         } while (userGuess != storedNumber);
         scanner.close();

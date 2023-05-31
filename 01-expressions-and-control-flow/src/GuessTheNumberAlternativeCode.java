@@ -16,6 +16,7 @@ public class GuessTheNumberAlternativeCode {
                 System.out.println("The stored number is smaller than " + userGuess);
             }
         }
+        scanner.close();
     }
 }
 // Write a program that stores a number and the user has to figure it out.
